@@ -1,0 +1,30 @@
+.board {
+    width: 100%;
+    height: 100vh;
+    background-color: #f3f4f6;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .add-note-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .add-note-btn:hover {
+    background-color: #4338ca;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
