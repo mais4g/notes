@@ -1,30 +1,78 @@
 .board {
-    width: 100%;
-    height: 100vh;
-    background-color: #f3f4f6;
-    position: relative;
-    overflow: hidden;
-    padding: 20px;
-  }
-  
-  .add-note-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #4f46e5;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    padding: 12px 24px;
-    font-size: 16px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-  }
-  
-  .add-note-btn:hover {
-    background-color: #4338ca;
-    transform: scale(1.05);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-  }
-  
+  width: 100%;
+  height: 100%;
+  background-color: #F7ECE1;
+  position: relative;
+  overflow: hidden;
+}
+
+.color-picker {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.color-picker span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.color-option:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.font-picker {
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.font-picker span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.font-picker select {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-note-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.add-note-btn:hover {
+  background-color: #4338ca;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
